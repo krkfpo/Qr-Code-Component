@@ -24,8 +24,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/qr-code-component-O-QnIQRt4d)
+- Live Site URL: [live site URL](https://main--qrcodefrontendmentorchallenge.netlify.app/)
 
 ## My process
 
@@ -46,6 +46,8 @@ The QR-Code image is wrapped inside a div called qr-code-container.Firstly, I wa
 Although, left and right margins were applied , top margin was being calculated from the viewport(wierd)
 
 So, I made the container div's width as the size of card div and added margin to image , margin =16px
+
+[How to push to github?](https://gist.github.com/sharbel93/ebcf0b18782573f4d95f80caa3c84acb)
 
 #### How to center a div
 
