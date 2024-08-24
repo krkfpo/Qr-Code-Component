@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --text-preset-1: bold 22px "Outfit";
+  --text-preset-2: 15px "Outfit";
+  --slate-900: #1f314f;
+  --slate-500: #68778d;
+  --slate-300: #d5e1ef;
+  --blue-600: #2c7dfa;
+  --blue-500: #3685ff;
+  --white: #ffffff;
+  --space-500: 40px;
+  --space-300: 24px;
+  --space-200: 16px;
+}
+
+body {
+  background-color: var(--slate-300);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  width: 320px;
+  height: 499px;
+  background-color: var(--white);
+  border-radius: 20px;
+}
+
+.qr-code {
+  width: 288px;
+  height: 288px;
+  margin: var(--space-200) var(--space-200) 0;
+  border-radius: 10px;
+  background-color: var(--slate-900);
+}
+
+.qr-code-container {
+  border-radius: 20px;
+}
+
+.description {
+  text-align: center;
+  margin: var(--space-300) var(--space-200) var(--space-500);
+}
+
+.description h2 {
+  font: var(--text-preset-1);
+  color: var(--slate-900);
+  margin: 0 var(--space-200) var(--space-200);
+  letter-spacing: 0px;
+}
+
+.description p {
+  font: var(--text-preset-2);
+  color: var(--slate-500);
+  margin: var(--space-200) var(--space-200) 0;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+}
